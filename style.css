@@ -1,0 +1,19 @@
+body{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    background-color:#ffffff;
+    margin: 0 ;
+    padding: 50px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    width: 50%;
+}
+
+.form-input{
+    margin-bottom: 16px;
+}
+

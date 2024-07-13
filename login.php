@@ -20,15 +20,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if (password_verify($password, $passwordHash)) {
                 $_SESSION['user_id'] = $id;
                 $_SESSION['username'] = $username;
-                echo "Login Successful";
-                header("Location: welcome.html");
+                header('Location:userinfo.php');
             } else {
                 echo "<script>alert('Incorrect Login Details.'); window.location.href='login.html';</script>";
             }
         } else {
             echo "User Is Not Registered.";
         }
-        
         $stmt->close();
     }
 }

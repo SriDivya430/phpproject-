@@ -1,0 +1,12 @@
+.username-container{
+    background-image:radial-gradient(circle,pink,white);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.username{
+    color: rgb(255, 0, 144);
+    font-style: italic;
+    font-size: 80px;
+}

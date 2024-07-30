@@ -40,7 +40,7 @@
     background-color:#111010ea;
     color: #ffffff;
     background-size: cover;
-    padding: 40px;
+    padding: 70px;
 }
 
 .description-part{
@@ -50,31 +50,6 @@
     font-size: 35px;
     text-align: center;
 }
-.heading-section{
-    overflow: hidden;
-}
-.web-services-1, .web-services-2{
-    transition: opacity 0.3s, transform 0.3s;
-}
-.web-services-1{
-    opacity: 1;
-    text-align: center;
-}
-
-.web-services-2{
-    opacity: 0;
-    text-align: center;
-    transform: translateY(-10px);
-}
-.heading-section:hover .web-services-1{
-    opacity:0;
-    transform: translateY(20px);
-}
-.heading-section:hover .web-services-2{
-    opacity: 1;
-    transform:translateY(1px) ;
-}
-
 .about-litho{
     color: white;
     font-weight: 600;

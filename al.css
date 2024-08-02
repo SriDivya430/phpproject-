@@ -42,7 +42,13 @@ html {
     background-color:rgba(0, 0, 0, 0.853);
 }
 .home-section{
+    background-color:rgb(45, 44, 44);
     background-size: cover;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .home-section-heading{
     text-align: center;

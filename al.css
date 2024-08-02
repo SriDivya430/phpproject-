@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+}
+#navItem1:hover{
+    color:gray ;
+}
+#navItem1{
+    color:black;
+    font-family: "Roboto";
+    transition: all 5s;
+}
+#navItem2:hover{
+    color:gray ;
+}
+
+#navItem2 {
+    color:black;
+    font-family: "Roboto";
+    transition: all 5s;
+}
+#navItem3:hover{
+    color:gray ;
+}
+#navItem3 {
+    color:black;
+    font-family: "Roboto";
+}
+#navItem4:hover{
+    color:gray ;
+}
+#navItem4 {
+    color:black;
+    font-family: "Roboto";
+}
+.bg-container{
+    min-height: 100vh;
+    background-color:rgba(0, 0, 0, 0.853);
+}
+.home-section{
+    background-size: cover;
+}
+.heading{
+    color: #ffffff;
+}
+.aboutus-section{
+    color: #ffffff;
+    background-size: cover;
+    padding: 20px;
+}
+.description-part{
+    text-align: center;
+}
+.aboutus-section-heading{
+    font-size: 35px;
+    text-align: center;
+}
+.about-al{
+    color: white;
+    font-weight: 600;
+}
+.description{
+    color: gray;
+    font-weight: 400;
+    font-size: 20px;
+}
+.web-services-1{
+    text-align: center;
+}
+@media  screen and (min-width:768px) {
+    .aboutus-section-heading{
+        text-align: start;
+        padding-top: 18px;
+    }
+    .web-services-1{
+        text-align: start;
+    }
+    .description-part{
+        text-align: start;
+    }
+}
+.service{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.icon{
+    color: white;
+    padding-right: 14px;
+    padding-top: 7px;
+}
+.icon-container{
+    height: 60px;
+    width: 60px;
+}
+.service-icon, .about-service{
+    position: absolute;
+    transition: opacity 0.3s, transform 0.3s;
+}
+.service-icon{
+    opacity: 1;
+}
+.about-service{
+    opacity: 0;
+    transform:translateY(80px);
+}
+.careers-section{
+    
+}
+.hr-line{
+    width: 100%;
+    border:1px solid gray;
+    background-size: cover;
+}
+
+.contactus-section{
+    
+    color: white;
+    text-align: center;
+}
+.contactus-section-icon{
+    color: #ffff00;
+    font-size: 40px;
+    margin-bottom: 25px;
+    opacity: 1;
+}
+.first-part{
+    overflow: hidden;
+    cursor: pointer;
+}
+.heading{
+    color: white;
+    opacity: 1;
+}
+.text{
+    color: gray;
+    text-decoration: underline;
+    opacity: 1;
+}
+.text:hover{
+    color: yellow;
+}
+.about{
+    color: gray;
+    padding-bottom: 50px;
+    opacity: 0;
+    transform: translateY(2px);
+}
+.contactus-section, .text, .about, .contactus-section-icon{
+    transition: opacity 0.3s, transform 0.3s ;
+}
+.first-part:hover .text{
+    opacity: 1;
+    transform: translateY(-40px);
+}
+.first-part:hover .heading{
+    opacity: 1;
+    transform: translateY(-30px);
+}
+.first-part:hover .contactus-section-icon{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+.first-part:hover .about{
+    opacity: 1;
+    transform: translateY(-45px);
+}
+
+

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="al.css">
+    <style>
+        .user{
+            background-color: transparent;
+            border: none;
+            outline: none;
+        }
+        .user-message{
+            background-color: transparent;
+            border: none;
+            outline: none;
+            min-width: 100%;
+            max-width: 100%;
+            min-height: 120px;
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                AL
+            </a>
+            <button class="navbar-toggler" id="hamburgerButton" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active mr-3" id="navItem1" href="#homeSection">
+                        Home
+                    </a>
+                    <a class="nav-link mr-3" href="#aboutUsSection" id="navItem2">About Us</a>
+                    <a class="nav-link mr-3" href="#careersSection" id="navItem3">Careers</a>
+                    <a class="nav-link mr-3" href="#contactUsSection" id="navItem4">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-container">
+        <section class="home-section mt-5" id="homeSection">
+            <h1 class="home-section-heading">AXLERATR LABS</h1>
+        </section>
+        <section class="aboutus-section" id="aboutUsSection">
+            <div class="container">
+                <div class="row pb-5">
+                    <div class="col-12 col-md-6">
+                        <div class="heading-section">
+                            <h2 class="aboutus-section-heading">
+                                A creative agency speciliazed in web <span class=" text-warning">customize tools</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="description-part pt-4">
+                            <p class="about-al">
+                                ABOUT AXLERATR LABS
+                            </p>
+                            <p class="description">
+                                With years of experience in the website design and development
+                                industry pride ourselves on creating unique, creative and quality 
+                                design that are developed upon the latest modern coding and developing 
+                                techniques.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="service">
+                                    <i class="fas fa-globe icon"></i>
+                                    <p class="service-title">DIGITAL BRANDING</p>
+                                </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                                <div class="service">
+                                    <i class="fas fa-rectangle-list icon"></i>
+                                    <p class="service-title">BRAND STRATEGY</p>
+                                </div>
+                        </div>
+                
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="service">
+                                <i class="fas fa-globe icon"></i>
+                                <p class="service-title">WEBSITE DESIGNING</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="service">
+                                <i class="fas fa-briefcase icon"></i>
+                                <p class="service-title">ECOMMERCE TOOL</p>
+                            </div>
+                        </div>
+                </div>    
+            </div>
+        </section>
+        <section class="careers-section" id="careersSection">
+            <div class="container-fluid">
+                <div class="row">
+                        <div class="col-12 col-md-6 pb-5">
+                            <h1 class="career-section-heading">Careers</h1>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p class="career-section-description">We are hiring...</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="contactus-section" id="contactUsSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="send-message-description">Fill out the form and we'll be in touch soon!</p>
+                        <h1 class="send-message-title pb-4">
+                            How we can help you?
+                        </h1>
+                        <form action="" method="POST" class="user-info pb-4">
+                            <div class="pb-5">
+                                <input type="text" name="name" placeholder="Your Name" class="user w-100" autocomplete="off" required/>
+                                <hr class="hr-line"/>
+                            </div>
+                            <div class="pb-5">
+                                <input type="text" name="email" placeholder="Your Email Address" class="user w-100" autocomplete="off" required/>
+                                <hr class="hr-line"/>
+                            </div>
+                            <div class="pb-5">
+                                <input type="text" name="mobile_number" placeholder="Your Mobile" class="user w-100" autocomplete="off" required/>
+                                <hr class="hr-line"/>
+                            </div>
+                            <div class="pb-5">
+                                <textarea name="message" placeholder="Your Message" class="user-message w-100"></textarea>
+                                <hr class="hr-line"/>
+                            </div>
+                            <div class="py-4">
+                                <p class="send-message-description">We are commited to protecting your privacy. 
+                                    We will never collect information about you without your explicit consent.
+                                </p>
+                                <button class="btn btn-light mb-5 text-secondary">SEND MESSAGE</button>
+                                <hr class="hr-line">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        hamburgerButtonElement=document.getElementById('hamburgerButton');
+        hamburgerButtonElement.onclick=()=>{
+            const icon=document.querySelector('#hamburgerButton i');
+            if (icon.classList.contains('fa-bars')){
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark')
+            }else{
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        }
+    </script>   
+</body>
+</html>

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+}
+#navItem1:hover{
+    color:gray ;
+}
+#navItem1{
+    color:black;
+    font-family: "Roboto";
+    transition: all 5s;
+}
+#navItem2:hover{
+    color:gray ;
+}
+
+#navItem2 {
+    color:black;
+    font-family: "Roboto";
+    transition: all 5s;
+}
+#navItem3:hover{
+    color:gray ;
+}
+#navItem3 {
+    color:black;
+    font-family: "Roboto";
+}
+#navItem4:hover{
+    color:gray ;
+}
+#navItem4 {
+    color:black;
+    font-family: "Roboto";
+}
+.bg-container{
+    min-height: 100vh;
+    background-color:rgba(0, 0, 0, 0.853);
+}
+.home-section{
+    background-color:rgb(45, 44, 44);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-section-heading{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+}
+@media  screen and (min-width:768px) {
+    .home-section-heading{
+        font-size: 60px;
+    }
+}
+.aboutus-section{
+    color: #ffffff;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    min-height: 60vh;
+    width: 100%;
+}
+.description-part{
+    text-align: center;
+}
+.aboutus-section-heading{
+    font-size: 40px;
+    text-align: center;
+}
+.about-al{
+    font-size:28px;
+    color: white;
+    font-weight: 600;
+}
+.description{
+    color: gray;
+    font-weight: 400;
+    font-size: 22px;
+}
+@media  screen and (min-width:768px) {
+    .aboutus-section-heading{
+        font-size: 48px;
+        text-align: start;
+        padding: 26px;
+    }
+    .about-al{
+        font-size:32px;
+    }
+    .description{
+        font-size: 24px;
+    }
+    .description-part{
+        text-align: start;
+    }
+}
+.service{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    color: white;
+    padding-right: 14px;
+    padding-top: 7px;
+}
+.service-title{
+    color: gray;
+    font-weight: 400;
+    font-size: 18px;
+}
+@media screen and (min-width:768px) {
+    .service-title{
+        font-size: 20px;
+    }
+}
+.careers-section{
+    height: 70vh;
+    background-color:rgb(45, 44, 44);
+    width: 100%;
+    background-size: cover;
+    padding-top: 60px;
+}
+.career-section-heading{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+.career-section-description{
+    color: gray;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    .career-section-heading{
+        padding: 26px;
+        padding-left: 100px;
+        font-size: 48px;
+        text-align:start;
+    }
+    .career-section-description{
+        padding: 34px;
+        text-align:start;
+        font-size: 24px;
+    }
+}
+
+.contactus-section{
+    min-height: 60vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.send-message-title{
+    font-size: 40px;
+    text-align: center;
+}
+.send-message-description{
+    font-size: 18px;
+    color: gray;
+}
+/*.user-message{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 120px;
+    max-height: 300px;
+}
+/*.user-name{
+    background-color: transparent;
+}*/
+.hr-line{
+    width: 100%;
+    border:0.6px solid gray;
+    background-size: cover;
+}
+@media screen and(min-width:768px) {
+    .send-message-title{
+        font-size: 48px;
+        text-align: center;
+    }
+}
+
